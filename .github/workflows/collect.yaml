@@ -2,7 +2,7 @@ name: Collect
 on:
   # Runs at 00:15, every 2 days
   schedule:
-    - cron: "15 0 */2 * *"
+    - cron: "15 0 * * *"
   workflow_dispatch:
 
 concurrency:
